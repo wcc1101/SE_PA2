@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # SE_PA2
 tamu 2024
 =======
+=======
+>>>>>>> 75f6a28 (initial commit)
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -26,4 +29,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+<<<<<<< HEAD
 >>>>>>> 6b70455 (initial commit)
+=======
+>>>>>>> 75f6a28 (initial commit)
