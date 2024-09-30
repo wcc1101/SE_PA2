@@ -7,9 +7,15 @@
 <table style="border-collapse: collapse; width: 100%; border: 1px solid black;">
   <thead>
     <tr>
-      <th style="border: 1px solid black; padding: 8px;">Title</th>
-      <th style="border: 1px solid black; padding: 8px;">Rating</th>
-      <th style="border: 1px solid black; padding: 8px;">Release Date</th>
+      <th style="border: 1px solid black; padding: 8px;">
+        <%= sortable "title", "Title" %>
+      </th>
+      <th style="border: 1px solid black; padding: 8px;">
+        <%= sortable "rating", "Rating" %>
+      </th>
+      <th style="border: 1px solid black; padding: 8px;">
+        <%= sortable "release_date", "Release Date" %>
+      </th>
       <th style="border: 1px solid black; padding: 8px;">Actions</th>
     </tr>
   </thead>
@@ -29,6 +35,7 @@
     </tr>
   </tfoot>
 </table>
+
 
 
 <%= link_to "New movie", new_movie_path %>
