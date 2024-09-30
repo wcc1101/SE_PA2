@@ -4,28 +4,28 @@
 
 <h1>Movies</h1>
 
-<table>
+<table style="border-collapse: collapse; width: 100%; border: 1px solid black;">
   <thead>
     <tr>
-      <th>Title</th>
-      <th>Rating</th>
-      <th>Release Date</th>
-      <th>Actions</th>
+      <th style="border: 1px solid black; padding: 8px;">Title</th>
+      <th style="border: 1px solid black; padding: 8px;">Rating</th>
+      <th style="border: 1px solid black; padding: 8px;">Release Date</th>
+      <th style="border: 1px solid black; padding: 8px;">Actions</th>
     </tr>
   </thead>
   <tbody>
     <% @movies.each do |movie| %>
       <tr>
-        <td><%= movie.title %></td>
-        <td><%= movie.rating %></td>
-        <td><%= movie.release_date %></td>
-        <td><%= link_to 'Show this movie', movie %></td>
+        <td style="border: 1px solid black; padding: 8px;"><%= movie.title %></td>
+        <td style="border: 1px solid black; padding: 8px;"><%= movie.rating %></td>
+        <td style="border: 1px solid black; padding: 8px;"><%= movie.release_date %></td>
+        <td style="border: 1px solid black; padding: 8px;"><%= link_to 'Show this movie', movie %></td>
       </tr>
     <% end %>
   </tbody>
   <tfoot>
     <tr>
-      <td colspan="4">Total Movies: <%= @movies.count %></td>
+      <td colspan="4" style="border: 1px solid black; padding: 8px;">Total Movies: <%= @movies.count %></td>
     </tr>
   </tfoot>
 </table>
