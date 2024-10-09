@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+/* styles.css */
+.highlight {
+    background-color: yellow; /* 可以根據需要改變顏色 */
+    font-weight: bold;
+  }
+  
+  .custom-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    border: none;
+  }
+  
